@@ -1,0 +1,24 @@
+{
+  "testSuite": "TestLambdaFunction",
+  "tests": [
+    {
+      "name": "test_lambda_handler",
+      "status": "pass",
+      "assertions": [
+        {
+          "description": "Status code is 200",
+          "result": true
+        },
+        {
+          "description": "Response body is either 'yes', 'no', or 'maybe'",
+          "result": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalTests": 1,
+    "passed": 1,
+    "failed": 0
+  }
+}
