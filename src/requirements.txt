@@ -1,0 +1,6 @@
+1> AWS ACCOUNT
+2> Proper IAM Roles
+3> Proper Integration of AWS API GATEWAY
+4> Knowledge of PostMan API testing.
+
+
