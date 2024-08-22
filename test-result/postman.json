@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "responseCode": 200,
+  "responseBody": {
+    "body": "yes"
+  },
+  "tests": {
+    "Status code is 200": true,
+    "Response is yes, no, or maybe": true
+  },
+  "testResults": [
+    {
+      "name": "Status code is 200",
+      "status": "pass"
+    },
+    {
+      "name": "Response is yes, no, or maybe",
+      "status": "pass"
+    }
+  ]
+}
