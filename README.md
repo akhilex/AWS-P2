@@ -15,8 +15,8 @@ Testing: Comprehensive testing suite with unit tests, integration tests, and API
 
 - `src/`: Contains the Lambda function code.
 - `tests/`: Contains unit tests, integration tests, and Postman API tests along with the respective outputs.
-- `architecture/`: Contains architecture diagrams.
--  api-gateway/ :  Contains the api key created through api gateway.
+- `architecture/`: Contains architecture diagram.
+- `api-gateway/`: Contains api key.
 
 ## Setup Instructions
 
