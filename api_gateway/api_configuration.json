@@ -1,1 +1,73 @@
+{
+  "name": "FortuneTellerAPI",
+  "description": "An API that returns a fortune-telling response (yes, no, maybe).",
+  "version": "1.0.0",
+  "endpoints": [
+    {
+      "path": "/prod",
+      "method": "GET",
+      "integration": {
+        "type": "AWS_PROXY",
+        "lambdaFunction": "FortuneTellerFunction"
+      }
+    }
+  ],
+  "cors": {
+    "allowOrigins": ["*"],
+    "allowMethods": ["GET"],
+    "allowHeaders": ["Content-Type"],
+    "exposeHeaders": ["X-Custom-Header"]
+  },
+  "security": {
+    "apiKeyRequired": false,
+    "authorization": "NONE"
+  },
+  "throttling": {
+    "rateLimit": 100,
+    "burstLimit": 200
+  },
+  "stages": {
+    "dev": {
+      "logging": true,
+      "tracing": true
+    },
+    "prod": {
+      "logging": true,
+      "tracing": true
+    }
+  },
+  "monitoring": {
+    "cloudWatchLogs": true,
+    "metrics": true
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://your-api-id.execute-api.region.amazonaws.com/prod
