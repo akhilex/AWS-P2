@@ -8,7 +8,7 @@
       "method": "GET",
       "integration": {
         "type": "AWS_PROXY",
-        "lambdaFunction": "FortuneTellerFunction"
+        "lambdaFunction": "llambda_function"
       }
     }
   ],
