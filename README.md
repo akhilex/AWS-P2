@@ -2,6 +2,10 @@
 ##  Project Overview
 The Fortune Teller Application is a simple AWS Lambda-based API that provides random responses ("yes", "no", or "maybe") to user queries. It is designed as a serverless application, leveraging AWS services like Lambda and API Gateway. This project includes unit testing, integration testing, and API testing using Postman, demonstrating best practices in cloud application development and quality assurance.
 
+## Architectural Diagram
+![Architectural Diagram](https://github.com/akhilex/AWS-P2/blob/main//architecture-diagram.png)
+
+
 ## Features
 Random Fortune Generation: Provides random responses of "yes", "no", or "maybe".
 
